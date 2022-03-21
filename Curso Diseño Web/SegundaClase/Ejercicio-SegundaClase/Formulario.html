@@ -1,0 +1,103 @@
+<html>
+
+<head></head>
+
+<body>
+
+  <h1>Formulario de prueba - Tercera Clase</h1>
+
+
+  <img src="..\..\IMG-20180824-WA0004.jpg" alt="Foto de AdrianL" width="50" height="60">
+
+  <h2>Completar el formulario</h2>
+  <div>
+    <form action="envioFormulario.html">
+
+      <div>
+        <li>
+          <label for="name">Nombre</label>
+          <input type="text" id="name" placeholder="Ingrese el nombre">
+        </li>
+      </div>
+
+      <div>
+        <li>
+          <label for="lastname">Apellido</label>
+          <input type="text" id="lastname" placeholder="Ingrese el apeliido">
+        </li>
+      </div>
+
+      <div>
+        <li>
+          <label for="dni">DNI</label>
+          <input type="number" name="DNI" id="dni" placeholder="Ingrese el DNI">
+        </li>
+      </div>
+
+      <div>
+        <li>
+          <label for="email">Correo electronico</label>
+          <input type="email" name="Correo electronico" id="email" placeholder="Ingrese su correo electronico">
+        </li>
+      </div>
+
+      <div>
+        <li>
+          <label for="city">Ciudad</label>
+          <select name="city">
+            <option>Buenos aires</option>
+            <option>CABA</option>
+          </select>
+        </li>
+      </div>
+
+      <div>
+        <li>
+          <label for="address">Direccion</label>
+          <input type="text" name="Direccion" id="address" placeholder="Ingrese su direccion">
+          <label for="addressNum">Numero</label>
+          <input type="number" name="Numero" id="addressNum" placeholder="ingrese el numero">
+      </div>
+      <div>
+        <li>
+          <label for="home">Casa</label>
+          <input type="checkbox" name="Casa" id="home">
+          <label for="departament">Departamento</label>
+          <input type="checkbox" name="Departamento" id="departament">
+        </li>
+      </div>
+
+      <div>
+        <li>
+          <label for="celular">Celular</label>
+          <input type="number" name="Celular" id="celular" placeholder="Ingrese su Num celular">
+        </li>
+      </div>
+
+
+      <div>
+        <input type="radio" name="Hombre" id="man" value="Hombre">
+        <label for="man">Hombre</label>
+        <input type="radio" name="Mujer" id="hir">
+        <label for="hir">Mujer</label>
+      </div>
+
+      <div>
+        <label for="description">Descripcion Adicional</label>
+        <textarea name="description" id="description" cols="40" rows="0.10"
+          placeholder="Ingrese una descripcion adicional"></textarea>
+      </div>
+
+    </form>
+    <div>
+      <input type="submit" value="Enviar">
+    </div>
+
+    <div>
+      <button>
+        <a href="index.html">Volver a Index</a>
+      </button>
+    </div>
+</body>
+
+</html>
